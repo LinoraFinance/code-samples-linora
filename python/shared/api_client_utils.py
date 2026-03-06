@@ -34,6 +34,7 @@ class DecimalEncoder(json.JSONEncoder):
 
 
 def is_token_expired(status_code: int, response: dict) -> bool:
+    
     return (
         True
         if (
