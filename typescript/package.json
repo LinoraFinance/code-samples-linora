@@ -19,6 +19,7 @@
   "devDependencies": {
     "ts-node": "^10.9.2"
   },
+  
   "scripts": {
     "app": "ts-node ./src/app.ts",
     "bench": "ts-node ./src/bench.ts"
