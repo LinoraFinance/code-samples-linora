@@ -21,6 +21,7 @@ class Account(StarknetAccount):
         signer: Optional[BaseSigner] = None,
         key_pair: Optional[KeyPair] = None,
         chain: Optional[StarknetChainId] = None,
+        
     ):
         super().__init__(
             address=address, client=client, signer=signer, key_pair=key_pair, chain=chain
