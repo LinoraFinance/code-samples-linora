@@ -33,7 +33,6 @@ export function buildOnboardingTypedData(starknetChainId: string) {
     },
   };
 }
-
 export interface AuthRequest extends Record<string, unknown> {
   method: string;
   path: string;
