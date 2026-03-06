@@ -19,7 +19,6 @@ async def main(eth_account_address: str) -> None:
     linora_account_address, linora_account_private_key_hex = generate_linora_account_from_ledger(
         linora_config, eth_account_address
     )
-
     # Onboard generated linora account
     logging.info("Onboarding...")
     await perform_onboarding(
