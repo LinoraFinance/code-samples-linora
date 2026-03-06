@@ -8,6 +8,7 @@ import BigNumber from "bignumber.js";
  * @returns Quantum value
  *
  */
+
 export function toQuantums(
   amount: BigNumber | string,
   precision: number
