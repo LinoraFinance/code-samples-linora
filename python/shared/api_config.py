@@ -41,6 +41,7 @@ class ApiConfig(ApiConfigInterface):
         self.linora_account_private_key = os.getenv('linora_ACCOUNT_PRIVATE_KEY', "")
 
         self.ethereum_hd_phrase = os.getenv('ETHEREUM_HD_PHRASE', "")
+        
         self.ethereum_account = os.getenv('ETHEREUM_ACCOUNT', "")
         self.ethereum_private_key = os.getenv('ETHEREUM_PRIVATE_KEY', "")
         self.quote_refresh_lower_boundary = float(os.getenv('QUOTE_REFRESH_LOWER_BOUNDARY', "0"))
