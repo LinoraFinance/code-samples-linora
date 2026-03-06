@@ -60,7 +60,7 @@ class StarknetCurve {
     }
 
     // Create params for private key
-    static ECPrivateKeyParameters createPrivateKeyParams(BigInteger privateKey) {
+    static ECPrivateKeyParameters createPrivateKdeyParams(BigInteger privateKey) {
         return new ECPrivateKeyParameters(
             privateKey,
             new ECDomainParameters(curve, pointG, EC_ORDER),
