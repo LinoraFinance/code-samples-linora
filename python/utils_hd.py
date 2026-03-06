@@ -29,7 +29,6 @@ def sign_stark_key_message_ledger(message: SignableMessage, eth_account_address:
     )
     return signed.signature
 
-
 def derive_stark_key_from_ledger(message: str, eth_account_address: str) -> int:
     signable_message = encode_typed_data(full_message=message)
     message_signature = sign_stark_key_message_ledger(signable_message, eth_account_address)
