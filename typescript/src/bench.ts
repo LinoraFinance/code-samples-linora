@@ -13,8 +13,7 @@ import { Account, SystemConfig } from "./utils/types";
     apiBaseUrl,
     starknet: { chainId },
   };
-
-  const account: Account = {
+const account: Account = {
     address: process.env.ACCOUNT_ADDRESS || "",
     publicKey: process.env.PUBLIC_KEY || "",
     privateKey: process.env.PRIVATE_KEY || "",
