@@ -57,7 +57,6 @@ async def perform_onboarding(
                 logging.error("Unable to POST /onboarding")
     return response
 
-
 async def get_jwt_token(
     linora_config: Dict, linora_http_url: str, account_address: str, private_key: str
 ) -> str:
