@@ -37,6 +37,7 @@ async def _get(url: str, params, linora_jwt: str):
                 logging.info(f"Success")
                 logging.info("Get Trades successful")
                 return response["results"], response["next"]
+                
             else:
                 # print(response)
                 logging.error(f"Status Code: {status_code}")
