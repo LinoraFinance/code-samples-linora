@@ -13,7 +13,6 @@ from utils import (
     get_l1_eth_account,
 )
 
-
 def build_order(config: ApiConfig, order_type: OrderType, order_side: OrderSide, size: Decimal, market, client_id: str) -> Order:
     order = Order(
         market=market,
