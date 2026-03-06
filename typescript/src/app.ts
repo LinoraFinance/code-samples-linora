@@ -19,7 +19,7 @@ import { shortString } from "starknet";
     starknet: { chainId },
   };
 
-  // TODO: Add key derivation
+// TODO: Add key derivation
   const account: Account = {
     address: process.env.ACCOUNT_ADDRESS || "",
     publicKey: process.env.PUBLIC_KEY || "",
