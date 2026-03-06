@@ -16,6 +16,7 @@ from starknet_py.proxy.proxy_check import ArgentProxyCheck, OpenZeppelinProxyChe
 # For matching existing chainId type
 class CustomStarknetChainId(Enum):
     PRIVATE_SN_TESTNET = int_from_bytes(b"PRIVATE_SN_POTC_SEPOLIA")
+    
 
 
 class StarkwareETHProxyCheck(ProxyCheck):
