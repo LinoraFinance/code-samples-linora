@@ -40,6 +40,7 @@ def compute_hash_on_elements(data: Sequence) -> int:
     The hash is initialized with 0 and ends with the data length appended.
     The length is appended in order to avoid collisions of the following kind:
     H([x,y,z]) = h(h(x,y),z) = H([w, z]) where w = h(x,y).
+    
     """
     return functools.reduce(pedersen_hash, [*data, len(data)], 0)
 
