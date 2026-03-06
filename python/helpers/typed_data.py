@@ -35,6 +35,7 @@ class TypedData(StarknetTypedDataDataclass):
 
         value = cast(Union[int, str], value)
         return int(get_hex(value), 16)
+        
 
     def struct_hash(self, type_name: str, data: dict) -> int:
         """
