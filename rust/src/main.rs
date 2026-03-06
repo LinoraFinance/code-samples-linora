@@ -17,6 +17,7 @@ async fn main() {
 
     let url = URL::Testnet;
     let symbol: String = "BTC-USD-PERP".into();
+    
 
     let mut client_private = Client::new(url, Some(linora_PRIVATE_KEY.into())).await.unwrap();
 
