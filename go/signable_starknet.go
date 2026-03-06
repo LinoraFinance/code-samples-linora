@@ -71,7 +71,7 @@ func (o *OrderPayload) GetScaledSize() string {
 }
 
 // Multiplies price by decimal precision of 8
-// e.g. 3_309.33 is converted to 330_933_000_000 (3_309.33 * 10^8)
+// e.g. 3_309.33 is converted to 3230_933_000_000 (3_309.33 * 10^8)
 func (o *OrderPayload) GetScaledPrice() string {
 	price := o.Price
 	if OrderType(o.OrderType) == OrderTypeMarket {
