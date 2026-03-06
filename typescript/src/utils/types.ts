@@ -4,7 +4,6 @@ export interface SystemConfig {
     readonly chainId: string;
   };
 }
-
 export interface Account {
   address: string;
   publicKey: string;
