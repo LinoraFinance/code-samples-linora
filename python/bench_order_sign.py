@@ -27,6 +27,7 @@ loop = asyncio.get_event_loop()
 config.linora_config = loop.run_until_complete(get_linora_config(config.linora_http_url))
 generate_accounts(config)
 
+
 t1 = timeit.repeat(lambda: sign_order(config, mock_order), number=number, repeat=rep)
 
 print(
