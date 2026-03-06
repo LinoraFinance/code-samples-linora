@@ -23,7 +23,6 @@ yarn install
 yarn run app
 yarn run bench
 ```
-
 ## Benchmarks
 
 ```bash
