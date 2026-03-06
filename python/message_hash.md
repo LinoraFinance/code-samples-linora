@@ -38,6 +38,7 @@ struct MyStruct:
     member param2: felt*
    ...
 end
+
 ```
 
 and we define its encoding as
